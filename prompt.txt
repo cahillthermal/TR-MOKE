@@ -1,0 +1,13 @@
+Write a python code that can model the non-linear response of a ferromagnetic thin film
+transducer in a time-resolved magneto-optic kerr effect experiment.  Assume that the thermal response
+of the metal film is a simple exponential decay.  The parameters in the model are the thickness of
+the metal film (default 20 nm), the thermal conductance per unit area of the interface between the metal film and
+a susbtrate (default 100 MW/m^2-K) that is assumed to have an extremely high thermal conductivity, the volumetric heat capacity
+of the metal film (default 3 J/cm^3-K), the Curie temperature of the metal film (default 330 K), and the exponent that describes the
+temperature dependence of the magnetization for temperatures below the Curie temperature (default 3/2).  Additional
+parameter the modulation frequency of the pump (default 10 MHz), 
+the range of time-delays of the probe (default -20 ps to 4 ns), and the base temperature of the sample (default 300 K)
+The calculation should compare what happens as the energy per unit area of the pump pulse increases 
+and causes the temperature of the metal film to exceed the Curie temperature.  Assume that the metal film
+absorbs 30% of the incident energy in the pump and assume that the probe is weak compared to the pump.
+The repetition rate of the laser is 80 MHz.  If any of this prompt is unclear, ask for clarification.
